@@ -20,20 +20,29 @@ Header and nav style
         height: 94px;
         margin-bottom: 17px;
 }
+
 .menu a{
         color:  #FFFFFF;
         font-size: 16px;
         text-decoration: none;
         margin:0 30px;
-        font-family: "popin" sans-serif;
-        
-        
+        font-family: "popin" sans-serif;       
+}
+.menu img{
+        width: 51px;
+        height: 51px;
+       position: absolute;
+        border: 1px solid rgb(185, 185, 238);
+        border-radius: 30px;
+        top: 20px;
+        left: 340px;
 }
 .menu{
        display: flex;
        justify-content: first baseline;
-       margin-left: 50%;
+       margin-left: 52%;
        padding-top: 32px;
+       position: relative;
       
 }
 
@@ -161,6 +170,20 @@ Media querys
         .player, .blog {
               
                 flex-direction: column;
+        }
+        .main-menu{
+                width: 100%;
+        }
+        .menu{
+                margin: 0 auto;
+                justify-content: flex-start;
+        }
+        .menu a{
+                padding-left:0;
+                margin-left: 20px;
+        }
+        .menu img{
+                left: 280px;
         }
 }
         /* ----------------
